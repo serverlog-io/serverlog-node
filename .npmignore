@@ -1,0 +1,28 @@
+# Source
+src/
+examples/
+__tests__/
+coverage/
+.github/
+
+# Config files
+.gitignore
+.travis.yml
+.editorconfig
+tsconfig.json
+jest.config.js
+.eslintrc
+.prettierrc
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
