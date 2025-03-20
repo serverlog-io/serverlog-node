@@ -27,12 +27,13 @@ export class ServerLog {
     }
 
     try {
+
       await this.client.post('/track', {
         channel: params.channel,
         event: params.event,
         user_id: params.user_id,
         icon: params.icon,
-        ...params.metadata
+        metadata: params.metadata
       });
     } catch (error) {
       if (error instanceof ServerLogError) {
