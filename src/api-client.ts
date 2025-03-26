@@ -6,9 +6,7 @@ export class APIClient {
   private apiKey: string;
 
   constructor(config: ServerLogConfig) {
-    const { apiKey, baseUrl = 'https://api.serverlog.dev' } = config;
-
-    console.log({ apiKey, baseUrl });
+    const { apiKey, baseUrl = 'https://api.serverlog.io' } = config;
 
     this.apiKey = apiKey;
     this.client = axios.create({

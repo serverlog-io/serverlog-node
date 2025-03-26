@@ -20,9 +20,7 @@ import { ServerLog } from '@serverlog/node';
 // const { ServerLog } = require('@serverlog/node');
 
 const serverlog = new ServerLog({
-  apiKey: 'your-api-key',
-  // Optional configuration
-  baseUrl: 'https://api.yourdomain.com', // defaults to https://api.serverlog.dev
+  apiKey: 'your-api-key'
 });
 ```
 
